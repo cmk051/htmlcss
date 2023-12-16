@@ -1,0 +1,7 @@
+css가 헷갈려서 강의들으면서 메모
+
+1. css도 상속이 가능하다
+2. display: bolck 은 가로 한 행을 차지한다.
+3. float 는 z축으로 정렬한다.
+4. float 를 사용하면  clear로 정돈해줘야한다.
+5. inline-block은 내 크기만큼 가로를 차지한다.

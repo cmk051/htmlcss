@@ -1,0 +1,61 @@
+.profile {
+  display: block; /* 가로행을 전부 사용한다 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  text-align: center; 
+  font-size: 30px;
+}
+
+.content {
+  text-align: center;
+}
+
+/* CSS 상속이 된다 */
+.box {
+  width: 100px;
+  background: cadetblue;
+  margin: 10px;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  font-size: 15px;
+  text-align: center;
+  box-shadow: 5px 5px black;
+}
+
+.container {
+  width: 800px;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: aquamarine;
+}
+
+.left_menu {
+  width: 30%;
+  height: 500px;
+  background: cornflowerblue;
+  display: inline-block;
+  /* float: left; */
+}
+
+.right_menu {
+  width: 70%;
+  height: 500px;
+  background: green;
+  display: inline-block;
+  /* float: left; */
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background: rebeccapurple;
+  /* clear: both; */
+}
